@@ -11,7 +11,7 @@ buttons.forEach(function(button) {
        
         if (button.classList.contains("backspace")){
             
-            inputdisplay.value = backspace()
+            backspace()
              
           }
         else if (button.classList.contains("AC")){
@@ -44,9 +44,7 @@ buttons.forEach(function(button) {
 
     })
 })
-function backspace(){
 
-}
 function operate() {
 intFirstNumbers = parseFloat(firstNumbers)
 intSecondNumbers = parseFloat(secondNumbers)
